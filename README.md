@@ -41,4 +41,8 @@ $ sudo docker compose up -d
 
 A aplicação estará disponível na porta 5000 se tudo estiver correto. A conta de administrador cadastrada é da gerente do Projeto Presenças. A credencial pode ser encontrada no arquivo .env.
 
+**É importante lembrar que os recursos não aparecerão, já que as URLs terão o IP de origem incorreto.
+Para corrigir, basta utilizar [este código](https://gist.github.com/thiagoc01/28e03461aa0f88d6593d005ed61ced04).
+Altere os campos entre <> para os valores corretos. Você deve executar este código dentro do container do CKAN ou qualquer um com Python 3 dentro da rede dos containers.**
+
 :warning: Lembre-se! Não utilize este CKAN em produção. Caso deseje, altere todos os segredos, chaves e senhas.
