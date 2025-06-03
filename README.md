@@ -46,3 +46,7 @@ Para corrigir, basta utilizar [este código](https://gist.github.com/thiagoc01/2
 Altere os campos entre <> para os valores corretos. Você deve executar este código dentro do container do CKAN ou qualquer um com Python 3 dentro da rede dos containers.**
 
 :warning: Lembre-se! Não utilize este CKAN em produção. Caso deseje, altere todos os segredos, chaves e senhas.
+
+## Perfil DCAT
+
+O arquivo `presencas_dcat_3.py` contém o _parser_/serializador RDF dos metadados do Projeto Presenças. Ele já vem incluído no tarball. Caso você queira subir uma instância de CKAN, utilize esse arquivo na extensão para incluir o perfil.
